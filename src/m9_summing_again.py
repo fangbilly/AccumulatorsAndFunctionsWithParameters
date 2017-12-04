@@ -38,13 +38,13 @@ def run_test_sum_powers():
     # Test 2:
     expected = 3.80826
     answer = sum_powers(5, -0.3)
-    print('Test 1 expected:', expected)
+    print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     # Test :
     expected = 144.45655
     answer = sum_powers(100, 0.1)
-    print('Test 1 expected:', expected)
+    print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
 
@@ -96,13 +96,13 @@ def run_test_sum_powers_in_range():
     # Test 2:
     expected = 9
     answer = sum_powers_in_range(2, 4, 1)
-    print('Test 1 expected:', expected)
+    print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     # Test 3:
     expected = 142.384776
     answer = sum_powers_in_range(3, 100, 0.1)
-    print('Test 1 expected:', expected)
+    print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
 
